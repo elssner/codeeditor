@@ -1,0 +1,27 @@
+{
+    "name": "codeeditor",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "matrix": "github:calliope-net/matrix#v0.4.5",
+        "pins": "github:calliope-net/pins#v1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "codeeditor.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.42",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj"
+}
